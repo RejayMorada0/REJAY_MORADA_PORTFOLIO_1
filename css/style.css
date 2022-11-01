@@ -21,7 +21,18 @@ a:focus {
 
 #navbarNavDropdown i {
     color: #775C51;
+    font-size: 20px;
 }
+#rejaynav {
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    z-index: 100;
+}
+
 
 
 /* Query if the screen is minimize */
