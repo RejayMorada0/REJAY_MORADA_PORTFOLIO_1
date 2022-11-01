@@ -8,6 +8,7 @@ html {
 }
 
 
+
 /*NAVBAR*/
 
 a {
@@ -16,6 +17,10 @@ a {
 
 a:focus {
     font-weight: bold;
+}
+
+#navbarNavDropdown i {
+    color: #775C51;
 }
 
 
