@@ -1,0 +1,35 @@
+* {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*NAVBAR*/
+
+a {
+    color: black;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+
+/* Query if the screen is minimize */
+
+@media only screen and (max-width: 1000px) {
+   
+}
+
+/* Query if the screen is maximum */
+
+@media only screen and (min-width:1000px) {
+    #navbarNavDropdown {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
