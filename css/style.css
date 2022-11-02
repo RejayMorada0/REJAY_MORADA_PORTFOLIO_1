@@ -103,6 +103,7 @@ main {
 
 .textanimation{
     display:flex;
+    margin-bottom: 10px;
 }
 .word0 {
     color: black;
