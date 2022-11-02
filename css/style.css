@@ -97,6 +97,14 @@ main {
     .home {
         display: grid;
         width: 100%;
+        justify-content: center;
+        align-content: center;
+    }
+    .imgcontainer{
+        padding: 2% 2% 2% 2%;
+        display: grid;
+        width: 100%;
+        justify-content: center;
     }
     .homeimg {
         width: 100%;
