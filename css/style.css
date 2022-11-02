@@ -217,13 +217,6 @@ main {
     border: solid 1px red;
 }
 
-.firstdetail label {
-    display: flex;
-    justify-self: flex-end;
-    padding-left: 40%;
-    background-color: #775C51;
-}
-
 
 
 /* Query if the screen is minimize */
