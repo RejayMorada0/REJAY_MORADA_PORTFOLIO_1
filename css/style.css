@@ -117,13 +117,12 @@ main {
 }
 
 .socmedcontainer{
- 
     width: 30%;
     display: flex;
     justify-content: space-around;
 }
 .socmedcontainer i{
-    font-size: 40px;
+    font-size: 30px;
     color: #775C51;
 }
 
@@ -153,6 +152,14 @@ main {
         display: grid;
         align-content: center;
         padding: 5% 2% 5% 5%;
+    }
+    .socmedcontainer{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .socmedcontainer i{
+        font-size: 20px;
     }
     
    
