@@ -134,6 +134,7 @@ main {
     background-color: #F3F3F3;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .about {
@@ -165,14 +166,15 @@ main {
     display: flex;
     column-gap: 30px;
     margin-top: 30px;
+    border: #775C51 solid 1px;
 }
 
 .aboutcontent .info{
-    width: 60%;
+    width: 50%;
    
 }
 .aboutcontent .percentage{
-    width:60%;
+    width:50%;
 }
 
 .abouttitle {
@@ -230,6 +232,23 @@ main {
 
 
 
+/* Query if the screen is minimize in tablet */
+
+@media only screen and (max-width: 800px) {
+    .aboutcontent {
+        width: 100%;
+        display: grid;
+        column-gap: 0px;
+        margin-top: 20px;
+    }
+    .aboutcontent .info{
+        width: 100%;
+       
+    }
+    .aboutcontent .percentage{
+        width: 100%;
+    }
+}
 
 
 /* Query if the screen is minimize */
