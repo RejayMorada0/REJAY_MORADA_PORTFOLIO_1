@@ -51,11 +51,9 @@ a:focus {
 
 main {
     width: 100%;
-    height: fit-content;
     background-color: #F3F3F3;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 10% 0 10% 0;
    
 }
@@ -64,7 +62,7 @@ main {
     display: flex;
     width: 80%;
     height: fit-content;
-  
+   
 }
 
 .imgcontainer{
@@ -84,7 +82,6 @@ main {
 .detailscontainer {
     width: 50%;
     padding: 2% 2% 2% 2%;
-
     display: grid;
     align-content: center;
 }
@@ -103,6 +100,7 @@ main {
 
 .textanimation{
     display:flex;
+    margin-bottom: 7%;
 }
 .word0 {
     color: black;
@@ -117,8 +115,7 @@ main {
 }
 
 .socmedcontainer{
-    border: solid 1px red;
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
 }
@@ -126,6 +123,16 @@ main {
     font-size: 40px;
     color: #775C51;
     margin-right: 20px;
+}
+
+
+/* Second */
+.second {
+    width: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    padding: 10% 0 10% 0;
     border: solid 1px blue;
 }
 
