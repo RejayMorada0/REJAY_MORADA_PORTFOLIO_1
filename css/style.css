@@ -66,6 +66,12 @@ main {
     height:auto;
 }
 
+.hello {
+    color:#775C51;
+    font-weight: bold;
+    font-size: 50;
+}
+
 
 
 /* Query if the screen is minimize */
