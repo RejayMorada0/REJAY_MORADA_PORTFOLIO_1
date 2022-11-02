@@ -182,6 +182,20 @@ main {
   
 }
 
+.abouttitle {
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: 20px;
+}
+
+.abouttitle1 {
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+}
+
 
 
 /* Query if the screen is minimize */
