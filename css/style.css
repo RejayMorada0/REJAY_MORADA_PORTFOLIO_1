@@ -57,20 +57,20 @@ main {
     justify-content: center;
     align-items: center;
     padding: 10% 0 10% 0;
-    border: solid 1px red;
+   
 }
 
 .home {
     display: flex;
     width: 80%;
     height: fit-content;
-    border: solid 1px yellow;
+  
 }
 
 .imgcontainer{
     padding: 2% 2% 2% 2%;
     width: 50%;
-    border: solid 1px black;
+  
     display: grid;
     justify-content: center;
 }
@@ -84,7 +84,7 @@ main {
 .detailscontainer {
     width: 50%;
     padding: 2% 2% 2% 2%;
-    border: solid 1px green;
+
     display: grid;
     align-content: center;
 }
@@ -117,7 +117,7 @@ main {
 }
 
 .socmedcontainer{
-    border: solid 1px black;
+ 
     width: 30%;
     display: flex;
     justify-content: space-around;
