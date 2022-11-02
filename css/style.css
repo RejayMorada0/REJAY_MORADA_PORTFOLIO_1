@@ -127,6 +127,7 @@ main {
 
 
 /* Second */
+
 .second {
     width: 100%;
     background-color: #F3F3F3;
@@ -150,7 +151,11 @@ main {
     text-align: center;
     font-weight: 900;
     color: #775C51;
-  
+}
+
+.revealUp {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .labelcontainer p{
