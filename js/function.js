@@ -1,5 +1,5 @@
 // Reference: https://alvarotrigo.com/blog/css-text-animations/
-var words = ['making websites that capture users.', 'planning digital solutions.','developing software application.', 'developing web application.'],
+var words = ['Freelancer.', 'Developer.','Designer.', 'Vexel and Graphic Artist.'],
     part,
     i = 0,
     offset = 0,
@@ -7,7 +7,7 @@ var words = ['making websites that capture users.', 'planning digital solutions.
     forwards = true,
     skip_count = 0,
     skip_delay = 15,
-    speed = 50;
+    speed = 70;
 var wordflick = function () {
   setInterval(function () {
     if (forwards) {

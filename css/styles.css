@@ -65,23 +65,25 @@ main {
 .project,
 .contact {
     height: 50vh;
-
     border: solid 1px red;
     margin-bottom: 5%;
 }
+
+
+/* Home */
 
 .home{
     width: 100%;
     height: 110vh;
     display: grid;
     align-content: center;
+    margin-bottom: 5%;
 }
 
 .home-details-container {
     padding: 2% 2% 2% 15%;
     display: grid;
     align-content: center;
-    border: solid 1px blue;
 }
 
 .home-details-container h1 {
@@ -89,17 +91,52 @@ main {
     font-weight: 900;
     font-size: 70px;
 }
+
 .textanimation {
     display: flex;
-    
+    margin: 10px 0 20px 0; 
 }
 
 .word0 {
     margin-right: 5px;
 }
 
+.word {
+    color: #775C51;
+}
+
+.socmedcontainer{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.socmedcontainer i{
+    font-size: 30px;
+    color: #775C51;
+    margin-right: 20px;
+}
 
 
+/* About */
+.about {
+    padding: 2% 15% 2% 15%;
+}
+.about-details-container {
+    display: grid;
+    justify-content: flex-start;
+    border: solid 1px yellow;
+}
+
+.about-details-container h1,
+.about-details-container p {
+    text-align: start;
+}
+.about-details-container h1{
+    color:#775C51;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
 
 
 
@@ -124,9 +161,44 @@ main {
         height: 100vh;
     }
 
+    /* Home */
+
     .home{
         height: 100vh;
     }
+
+    .home-details-container h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .home-details-container h3 {
+        font-size: 25px;
+    }
+
+    .textanimation {
+        display: flex;
+        margin: 10px 0 40px 0; 
+    }
+
+    .socmedcontainer i{
+        font-size: 25px;
+    }
+
+    /* About */
+    .about {
+        padding: 2% 2% 2% 2%;
+    }
+
+    .about-details-container h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .about-details-container h3 {
+        font-size: 25px;
+    }
+    
 
  
 
