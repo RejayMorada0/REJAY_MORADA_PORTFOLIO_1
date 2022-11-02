@@ -27,15 +27,13 @@ a:focus {
     display:none;
 }
 
-#navbarNavDropdown i:hover {
+#navbarNavDropdown i:hover + span {
     background-color: #775C51;
     color: white;
     font-size: 20px;
     padding: 5px 10px 5px 10px;
     border-radius: 5%;
-}
-#navbarNavDropdown span:hover{
-    display:grid;
+    display: block;
 }
 
 #rejaynav {
