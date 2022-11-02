@@ -168,13 +168,11 @@ main {
 }
 
 .aboutcontent .info{
-    height: 50vh;
-    width: 100%;
+    width: 60%;
    
 }
 .aboutcontent .percentage{
-    height: 50vh;
-    width: 100%;
+    width:60%;
 }
 
 .abouttitle {
@@ -269,6 +267,13 @@ main {
         display: grid;
         column-gap: 0px;
         margin-top: 20px;
+    }
+    .aboutcontent .info{
+        width: 100%;
+       
+    }
+    .aboutcontent .percentage{
+        width: 100%;
     }
     .labelcontainer h1{
         text-align: start;
