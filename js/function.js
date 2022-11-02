@@ -1,4 +1,3 @@
-
 // Reference: https://alvarotrigo.com/blog/css-text-animations/
 var words = ['Making websites that capture users.', 'Planned digital solutions.'],
     part,
