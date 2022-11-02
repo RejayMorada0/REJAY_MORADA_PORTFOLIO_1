@@ -218,6 +218,10 @@ main {
     border: solid 1px red;
 }
 
+.box i {
+    color: #775C51;
+}
+
 
 
 
@@ -269,6 +273,10 @@ main {
         width: 100%;
         display: grid;
         column-gap: 0px;
+    }
+
+    .col col-lg-2 {
+        background-color: #775C51;
     }
     
    
