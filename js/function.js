@@ -7,7 +7,7 @@ var words = ['making websites that capture users.', 'planning digital solutions.
     forwards = true,
     skip_count = 0,
     skip_delay = 15,
-    speed = 70;
+    speed = 50;
 var wordflick = function () {
   setInterval(function () {
     if (forwards) {

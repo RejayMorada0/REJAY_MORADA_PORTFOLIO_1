@@ -78,11 +78,24 @@ main {
 }
 
 .home-details-container {
-    padding: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 15%;
     display: grid;
     align-content: center;
     border: solid 1px blue;
+}
 
+.home-details-container h1 {
+    color:#775C51;
+    font-weight: 900;
+    font-size: 70px;
+}
+.textanimation {
+    display: flex;
+    
+}
+
+.word0 {
+    margin-right: 5px;
 }
 
 
