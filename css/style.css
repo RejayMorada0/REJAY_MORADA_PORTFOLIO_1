@@ -133,7 +133,47 @@ main {
     display: flex;
     justify-content: center;
     padding: 10% 0 10% 0;
+
+}
+
+.about {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.labelcontainer h1{
+    text-align: center;
+    font-weight: 900;
+    color: #775C51;
+  
+}
+
+.labelcontainer p{
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+ 
+}
+
+.aboutcontent {
+    width: 100%;
+    display: flex;
     border: solid 1px blue;
+}
+
+.aboutcontent .info{
+    height: 150vh;
+    width: 50%;
+    border: solid 1px red;
+
+}
+.aboutcontent .percentage{
+    height: 150vh;
+    width: 50%;
+    border: solid 1px yellow;
 }
 
 
