@@ -198,13 +198,11 @@ main {
 }
 
 .firstbox {
-    border: solid 1px blue;
     width: 100%;
     display: grid;
 }
 
 .secondbox {
-    border: solid 1px yellow;
     width: 100%;
     display: grid;
 }
@@ -215,11 +213,15 @@ main {
 .fourthdetail {
     display: flex;
     width:100%;
-    border: solid 1px red;
 }
 
 .box i {
     color: #775C51;
+}
+
+.col {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -274,9 +276,7 @@ main {
         display: grid;
         column-gap: 0px;
     }
-    .col-lg-1{
-        width: 10px;
-    }
+   
     
    
 }
