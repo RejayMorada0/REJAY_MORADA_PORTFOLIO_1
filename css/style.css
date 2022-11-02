@@ -120,7 +120,8 @@ main {
 .socmedcontainer{
     width: 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-right: 15px;
 }
 .socmedcontainer i{
     font-size: 30px;
@@ -161,7 +162,6 @@ main {
     }
     .socmedcontainer i{
         font-size: 25px;
-        margin-left: 10%;
     }
     
    
