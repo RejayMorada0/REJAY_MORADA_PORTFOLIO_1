@@ -194,7 +194,7 @@ main {
 .box{
     width: 100%;
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
 }
 
 .firstbox {
@@ -263,7 +263,6 @@ main {
         display: grid;
         column-gap: 0px;
         margin-top: 20px;
-        
     }
     .labelcontainer h1{
         text-align: start;
