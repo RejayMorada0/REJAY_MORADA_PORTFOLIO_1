@@ -57,14 +57,14 @@ main {
     justify-content: center;
     align-items: center;
     padding: 10% 0 10% 0;
-   
+    border: solid 1px yellow;
 }
 
 .home {
     display: flex;
     width: 80%;
     height: fit-content;
-  
+    border: solid 1px greenyellow;
 }
 
 .imgcontainer{
