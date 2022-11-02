@@ -209,6 +209,13 @@ main {
         align-content: center;
         padding: 5% 2% 5% 5%;
     }
+
+    .aboutcontent {
+        width: 100%;
+        display: grid;
+        column-gap: 0px;
+        margin-top: 20px;
+    }
     
    
 }
