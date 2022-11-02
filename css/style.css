@@ -274,9 +274,8 @@ main {
         display: grid;
         column-gap: 0px;
     }
-
-    #iconw1 {
-        background-color: #775C51;
+    .col-lg-1{
+        width: 10px;
     }
     
    
