@@ -72,6 +72,12 @@ main {
     font-size: 50;
 }
 
+.myname {
+    color: black;
+    font-weight: medium;
+    font-size: 25;
+}
+
 
 
 /* Query if the screen is minimize */
