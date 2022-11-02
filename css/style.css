@@ -129,6 +129,7 @@ main {
 /* Second */
 
 .second {
+    padding: 10% 0 15% 0;
     width: 100%;
     background-color: #F3F3F3;
     display: flex;
@@ -154,7 +155,7 @@ main {
 
 .labelcontainer p{
     text-align: center;
-    font-weight: 500;
+    font-weight: 200;
     color: black;
     font-size: 25px;
 }
@@ -184,7 +185,7 @@ main {
 }
 
 .abouttitle1 {
-    font-weight: 500;
+    font-weight: 200;
     color: black;
     font-size: 20px;
     
@@ -229,6 +230,7 @@ main {
         width: 100%;
         justify-content: center;
         align-content: center;
+        padding: 5% 2% 5% 5%;
     }
     .imgcontainer{
         display: grid;
@@ -244,7 +246,6 @@ main {
         width: 100%;
         display: grid;
         align-content: center;
-        padding: 5% 2% 5% 5%;
     }
 
     .about {
