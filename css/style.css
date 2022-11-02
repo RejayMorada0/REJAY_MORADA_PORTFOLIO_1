@@ -69,18 +69,18 @@ main {
 .hello {
     color:#775C51;
     font-weight: bold;
-    font-size: 50;
+    font-size: 100;
 }
 
 .myname {
     color: black;
     font-weight: medium;
-    font-size: 25;
+    font-size: 45;
 }
 .word {
     color: black;
     font-weight: light;
-    font-size: 25;
+    font-size: 45;
 }
 
 
