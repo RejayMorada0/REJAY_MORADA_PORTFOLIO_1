@@ -67,10 +67,10 @@ main {
 
 .imgcontainer{
     padding: 2% 2% 2% 2%;
-    width: 50%;
-  
-    display: grid;
+    width: 50%; 
+    display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .homeimg {
@@ -132,11 +132,11 @@ main {
     background-color: #F3F3F3;
     display: flex;
     justify-content: center;
-    padding: 10% 0 10% 0;
-
 }
 
 .about {
+    border: solid 1px pink;
+    width: 100%;
     display: grid;
     justify-content: center;
     align-content: center;
