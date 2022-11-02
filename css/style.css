@@ -61,6 +61,11 @@ main {
     border: solid 1px yellow;
 }
 
+.revealUp {
+    opacity: 0;
+    visibility: hidden;
+  }
+
 
 
 /* Query if the screen is minimize */
