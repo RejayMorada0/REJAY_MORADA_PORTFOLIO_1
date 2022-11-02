@@ -77,6 +77,11 @@ main {
     font-weight: medium;
     font-size: 25;
 }
+.word {
+    color: black;
+    font-weight: light;
+    font-size: 25;
+}
 
 
 
