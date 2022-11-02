@@ -117,14 +117,16 @@ main {
 }
 
 .socmedcontainer{
- 
+    border: solid 1px red;
     width: 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .socmedcontainer i{
     font-size: 40px;
     color: #775C51;
+    margin-right: 20px;
+    border: solid 1px blue;
 }
 
 
