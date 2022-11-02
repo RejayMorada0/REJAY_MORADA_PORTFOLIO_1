@@ -1,0 +1,130 @@
+* {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/*NAVBAR*/
+
+a {
+    color: black;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+#rejaynav i {
+    color: #775C51;
+    font-size: 25px;
+}
+
+#rejaynav i:hover {
+    background-color: #775C51;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10%;
+}
+
+#rejaynav {
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    z-index: 100;
+}
+
+/* body */
+
+body {
+    height: 100%;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    height: 110vh;
+    background-image: url(../images/home-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.about,
+.resume,
+.project,
+.contact {
+    height: 50vh;
+
+    border: solid 1px red;
+    margin-bottom: 5%;
+}
+
+.home{
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    align-content: center;
+}
+
+.home-details-container {
+    padding: 2% 2% 2% 2%;
+    display: grid;
+    align-content: center;
+    border: solid 1px blue;
+
+}
+
+
+
+
+
+
+/* Query if the screen is minimize */
+
+@media only screen and (max-width: 1000px) {
+    #rejaynav {
+        display: flex;
+        justify-content: center;
+    }
+    .home,
+    .about,
+    .resume,
+    .project,
+    .contact {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    .home{
+        height: 100vh;
+    }
+
+ 
+
+}
+
+
+/* Query if the screen is maximum */
+
+@media only screen and (min-width:1000px) {
+    #rejaynav {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
