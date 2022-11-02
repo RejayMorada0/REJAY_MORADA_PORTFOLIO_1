@@ -153,11 +153,6 @@ main {
     color: #775C51;
 }
 
-.revealUp {
-    opacity: 0;
-    visibility: hidden;
-}
-
 .labelcontainer p{
     text-align: center;
     font-weight: 500;
