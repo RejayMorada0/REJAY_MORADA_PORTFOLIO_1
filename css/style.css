@@ -129,6 +129,14 @@ main {
 }
 
 
+.about {
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    border: solid 1px red;
+}
+
+
 
 /* Query if the screen is minimize */
 
