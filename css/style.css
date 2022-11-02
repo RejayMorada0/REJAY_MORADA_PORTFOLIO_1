@@ -264,6 +264,11 @@ main {
     .labelcontainer p{
         text-align: start;
     }
+    .box{
+        width: 100%;
+        display: grid;
+        column-gap: 0px;
+    }
     
    
 }
