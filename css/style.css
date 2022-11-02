@@ -61,10 +61,16 @@ main {
     border: solid 1px yellow;
 }
 
+.imgcontainer{
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+}
+
 .homeimg {
     width: 500px;
     height:auto;
 }
+
 
 .hello {
     color:#775C51;
@@ -91,6 +97,10 @@ main {
     .home {
         display: grid;
         width: 100%;
+    }
+    .homeimg {
+        width: 100%;
+        height:auto;
     }
     
    
