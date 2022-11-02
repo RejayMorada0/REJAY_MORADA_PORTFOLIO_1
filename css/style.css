@@ -61,16 +61,21 @@ main {
     border: solid 1px yellow;
 }
 
-.revealUp {
-    opacity: 0;
-    visibility: hidden;
-  }
+.homeimg {
+    width: 500px;
+    height:auto;
+}
 
 
 
 /* Query if the screen is minimize */
 
 @media only screen and (max-width: 1000px) {
+    .home {
+        display: grid;
+        width: 100%;
+    }
+    
    
 }
 
