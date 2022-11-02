@@ -56,7 +56,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 50px 0;
+    padding: 10% 0 10% 0;
     border: solid 1px red;
 }
 
@@ -106,6 +106,17 @@ main {
     font-size: 25px;
 }
 
+.socmedcontainer{
+    border: solid 1px black;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.socmedcontainer i{
+    font-size: 40px;
+    color: #775C51;
+}
+
 
 
 /* Query if the screen is minimize */
@@ -131,7 +142,7 @@ main {
         width: 100%;
         display: grid;
         align-content: center;
-        padding: 5% 5% 5% 5%;
+        padding: 5% 2% 5% 5%;
     }
     
    
