@@ -183,7 +183,6 @@ main {
 }
 
 .abouttitle {
-    text-align: center;
     font-weight: 900;
     color: black;
     font-size: 20px;
@@ -191,7 +190,6 @@ main {
 }
 
 .abouttitle1 {
-    text-align: center;
     font-weight: 500;
     color: black;
     font-size: 20px;
