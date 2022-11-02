@@ -187,6 +187,7 @@ main {
     font-weight: 900;
     color: black;
     font-size: 20px;
+    border: solid 1px red;
 }
 
 .abouttitle1 {
@@ -194,6 +195,7 @@ main {
     font-weight: 500;
     color: black;
     font-size: 20px;
+    border: solid 1px blue;
 }
 
 
