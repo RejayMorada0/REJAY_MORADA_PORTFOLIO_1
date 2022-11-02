@@ -47,9 +47,9 @@ main {
     border: solid 1px red;
 }
 
-.homeimg {
-    display: grid;
-    width: 60%;
+.home {
+    display: flex;
+    width: 80%;
     height: fit-content;
     border: solid 1px yellow;
 }
