@@ -1,5 +1,5 @@
 // Reference: https://alvarotrigo.com/blog/css-text-animations/
-var words = ['making websites that capture users.', 'planned digital solutions.'],
+var words = ['making websites that capture users.', 'planning digital solutions.','developing software application.', 'developing web application.'],
     part,
     i = 0,
     offset = 0,

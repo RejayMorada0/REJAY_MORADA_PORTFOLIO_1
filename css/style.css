@@ -100,12 +100,17 @@ main {
     font-weight: 700;
     font-size: 25px;
 }
+
+.textanimation{
+    display:flex;
+}
 .word0 {
     color: black;
     font-weight: 200;
     font-size: 25px;
 }
 .word {
+    margin-left: 4px;
     color: #775C51;
     font-weight: 200;
     font-size: 25px;
