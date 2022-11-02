@@ -54,7 +54,7 @@ main {
     background-color: #F3F3F3;
     display: flex;
     justify-content: center;
-    padding: 10% 0 10% 0;
+    padding: 10% 0 15% 0;
    
 }
 
@@ -135,12 +135,15 @@ main {
 }
 
 .about {
-    border: solid 1px pink;
     width: 100%;
     display: grid;
     justify-content: center;
     align-content: center;
    
+}
+.labelcontainer {
+   
+    width: 100%;
 }
 
 .labelcontainer h1{
@@ -161,19 +164,22 @@ main {
 .aboutcontent {
     width: 100%;
     display: flex;
-    border: solid 1px blue;
+    column-gap: 30px;
+   margin-top: 30px;
 }
 
 .aboutcontent .info{
-    height: 150vh;
-    width: 50%;
-    border: solid 1px red;
+    height: 50vh;
+    width: 100%;
+   
+   
 
 }
 .aboutcontent .percentage{
-    height: 150vh;
-    width: 50%;
-    border: solid 1px yellow;
+    height: 50vh;
+    width: 100%;
+   
+  
 }
 
 
