@@ -464,7 +464,6 @@ main {
 
 .container {
     width: 50%;
-    border: solid 1px red;
 }
 
 .content-center {
@@ -691,6 +690,13 @@ form {
     /* Contact */
     .contact {
         padding: 10% 4% 10% 4%;
+    }
+    .container {
+        width: 100%;
+
+    }
+    form {
+        width: 100%;
     }
 
 }
