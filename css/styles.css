@@ -59,7 +59,6 @@ main {
     background-repeat: no-repeat;
 }
 
-
 .resume,
 .project,
 .contact {
@@ -213,6 +212,64 @@ main {
     justify-content: flex-end;
 }
 
+/*  Skills */
+.skills {
+    padding: 2% 10% 2% 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.skills-details-container {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.skills-details-container h1{
+    text-align: start;
+    color:#775C51;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
+.skills-main-content-container {
+    width: 100%;
+    display: flex;
+    column-gap: 5%;
+}
+
+.percentage0,
+.percentage1 {
+    width: 50%;
+    height: auto;
+}
+
+.progress-bar {
+    background-color: #775C51;
+}
+
+
+/* Resume */
+.resume {
+    padding: 2% 10% 2% 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.resume-details-container {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.resume-details-container h1{
+    text-align: start;
+    color:#775C51;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
+
 
 /* Query if the screen is tablet */
 
@@ -246,6 +303,17 @@ main {
         column-gap: 0px;
     }
 
+    /* Skills */
+    .skills-main-content-container {
+        display: grid;
+    }
+
+    .percentage0,
+    .percentage1 {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* Query if the screen is phone */
@@ -256,6 +324,7 @@ main {
         justify-content: center;
     }
 
+    .skills,
     .about,
     .resume,
     .project,
@@ -335,6 +404,17 @@ main {
         width: 100%;
         display: grid;
         column-gap: 0px;
+    }
+
+    /* Skills */
+    .skills-main-content-container {
+        display: grid;
+    }
+    
+    .percentage0,
+    .percentage1 {
+        width: 100%;
+        height: auto;
     }
 
  
