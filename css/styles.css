@@ -484,9 +484,12 @@ form {
     width: 50%;
 }
 
+
 .btn {
     background-color: #775C51;
     border: 0px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .btn:hover {
@@ -697,6 +700,10 @@ form {
     }
     form {
         width: 100%;
+    }
+    .btn {
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
 
 }
