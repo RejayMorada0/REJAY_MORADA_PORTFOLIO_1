@@ -490,6 +490,12 @@ main {
     .home{
         width: 100%;
         height: 100vh;
+        display: grid;
+        align-content: end;
+        padding-bottom: 20%;
+    }
+    .home-details-container {
+        padding: 2% 2% 2% 4%;
     }
 
     .home-details-container h1 {
@@ -503,7 +509,7 @@ main {
 
     .textanimation {
         display: flex;
-        margin: 10px 0 40px 0; 
+        margin: 5px 0 10px 0; 
     }
 
     .socmedcontainer i{
