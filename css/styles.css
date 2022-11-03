@@ -157,7 +157,6 @@ main {
     background-repeat: no-repeat;
 }
 
-.resume,
 .project,
 .contact {
     height: 50vh;
@@ -367,12 +366,13 @@ main {
 
 
 /* Resume */
-.resume {
+.resume{
+    background-color: #F3F3F3;
     padding: 2% 10% 2% 10%;
-    background-color: white;
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .resume-details-container {
     display: grid;
     justify-content: flex-start;
@@ -392,6 +392,28 @@ main {
     column-gap: 5%;
     height: 10vh;
     border: solid 1px blue;
+}
+
+
+/* Projects */
+.project {
+    padding: 2% 10% 2% 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+/* Contact */
+.contact {
+    padding: 2% 10% 2% 10%;
+    background-color: #F3F3F3;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -490,7 +512,7 @@ main {
 
     /* About */
     .about {
-        padding: 2% 4% 2% 4%;
+        padding: 10% 4% 10% 4%;
     }
     .about-details-container h1 {
         font-weight: 600;
@@ -540,7 +562,7 @@ main {
 
     /* Skills */
     .skills{
-        padding: 2% 4% 2% 4%;
+        padding: 10% 4% 10% 4%;
     }
 
     .skills-main-content-container {
@@ -553,6 +575,10 @@ main {
         height: auto;
     }
 
+    /* Resume */
+    .resume{
+        padding: 10% 4% 10% 4%;
+    }
  
 
 }
