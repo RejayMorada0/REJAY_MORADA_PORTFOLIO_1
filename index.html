@@ -324,12 +324,12 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="fullname">Full Name</label>
-                    <input type="text" class="form-control" id="fullname" required>
+                    <input type="text" class="form-control" id="fullname">
                     
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" required>
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
                   </div>
                 </div>
                 <div class="form-group">
@@ -341,7 +341,8 @@
                   <textarea class="form-control" id="validationTextarea" placeholder="Type your message here." required></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="bi bi-send"></i> Send</button>
+              
+                <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="sendEmail()"><i class="bi bi-send"></i> Send</button>
               </form>
 
               
@@ -384,6 +385,25 @@
 
   <!-- Custom JS -->
   <script src="js/function.js"></script>
+
+  <!-- Send Email: https://stackoverflow.com/questions/271171/sending-emails-with-javascript -->
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script type="text/javascript">
+      
+      function sendEmail() {
+          Email.send({
+              SecureToken: "security token of your smtp",
+              To: "rejaymorada0@gmail.com",
+              From: document.getElementById('email').value,
+              Subject: document.getElementById('subject').value,
+              Body: document.getElementById('validationTextarea').value
+          }).then( 
+              message => alert("mail sent successfully")
+          );
+      }
+  </script>
 
 </body>
 </html>
