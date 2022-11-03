@@ -106,7 +106,6 @@ html {
 }
 
 
-
 /*NAVBAR*/
 
 a {
@@ -119,13 +118,12 @@ a:focus {
 
 #rejaynav i {
     color: #775C51;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #rejaynav i:hover {
     background-color: #775C51;
     color: white;
-    font-size: 25px;
     padding: 5px 10px 5px 10px;
     border-radius: 10%;
 }
@@ -138,6 +136,7 @@ a:focus {
     padding-right: 5%;
     background-color: white;
     z-index: 100;
+    height: 50px;
 }
 
 /* body */
