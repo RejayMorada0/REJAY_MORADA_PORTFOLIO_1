@@ -553,6 +553,7 @@ main {
     .about {
         padding: 10% 4% 10% 4%;
     }
+
     .about-details-container h1 {
         font-weight: 600;
         font-size: 50px;
@@ -624,10 +625,19 @@ main {
         width: 100%;
         display: grid;
     }
-    #d-full {
-        width: 100%;
+
+
+
+    /* Project */
+    .project {
+        padding: 10% 4% 10% 4%;
     }
- 
+
+
+    /* Contact */
+    .contact {
+        padding: 10% 4% 10% 4%;
+    }
 
 }
 
