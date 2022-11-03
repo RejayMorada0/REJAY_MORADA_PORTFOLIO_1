@@ -90,7 +90,8 @@
 
 
 
-
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700;900&display=swap');
 
 
 /*  Custom CSS */
@@ -192,10 +193,14 @@ main {
 }
 
 .word0 {
+    font-size: 30px;
+    font-weight: 100;
     margin-right: 5px;
 }
 
 .word {
+    font-size: 30px;
+    font-weight: 100;
     color: #775C51;
 }
 
@@ -256,10 +261,15 @@ main {
 }
 
 .about-content-container h3 {
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 3%;
 }
 
+.about-content-container h4 {
+    font-weight: 100;
+    margin-bottom: 3%;
+}
 
 .about-picture-container{
     display: grid;
@@ -376,6 +386,14 @@ main {
     margin-bottom: 3%;
 }
 
+.resume-main-content-container {
+    width: 100%;
+    display: flex;
+    column-gap: 5%;
+    height: 10vh;
+    border: solid 1px blue;
+}
+
 
 
 /* Query if the screen is tablet */
@@ -490,8 +508,14 @@ main {
     }
 
     .about-content-container h3 {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 25px;
+    }
+    
+    .about-content-container h4 {
+        font-weight: 100;
+        font-size: 25px;
+        margin-bottom: 3%;
     }
 
     .about-picture-container{
