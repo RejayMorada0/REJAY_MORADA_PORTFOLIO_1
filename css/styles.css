@@ -60,7 +60,6 @@ main {
 }
 
 
-.about,
 .resume,
 .project,
 .contact {
@@ -77,18 +76,17 @@ main {
     height: 110vh;
     display: grid;
     align-content: center;
-    margin-bottom: 5%;
 }
 
 .home-details-container {
-    padding: 2% 2% 2% 15%;
+    padding: 2% 2% 2% 10%;
     display: grid;
     align-content: center;
 }
 
 .home-details-container h1 {
     color:#775C51;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 70px;
 }
 
@@ -116,26 +114,68 @@ main {
     margin-right: 20px;
 }
 
+.socmedcontainer i:hover{
+    color: #9b7c71;
+}
+
 
 /* About */
 .about {
-    padding: 2% 15% 2% 15%;
+    padding: 2% 10% 2% 10%;
+    background-color: #F3F3F3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: fit-content;
 }
 .about-details-container {
     display: grid;
     justify-content: flex-start;
-    border: solid 1px yellow;
 }
 
 .about-details-container h1,
 .about-details-container p {
     text-align: start;
 }
+
 .about-details-container h1{
     color:#775C51;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 50px;
     margin-bottom: 3%;
+}
+
+.about-main-content {
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.about-content-container {
+    display: grid;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 4%;
+    border: solid 1px red;
+}
+
+.about-content-container h3 {
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+
+.about-picture-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 35vh;
+    border: solid 1px red;
+}
+
+.about-picture-container img {
+    width: 300px;
+    height:auto;
 }
 
 
@@ -147,7 +187,7 @@ main {
         display: flex;
         justify-content: center;
     }
-    .home,
+
     .about,
     .resume,
     .project,
@@ -164,11 +204,12 @@ main {
     /* Home */
 
     .home{
+        width: 100%;
         height: 100vh;
     }
 
     .home-details-container h1 {
-        font-weight: 700;
+        font-weight: 600;
         font-size: 50px;
     }
 
@@ -191,7 +232,7 @@ main {
     }
 
     .about-details-container h1 {
-        font-weight: 700;
+        font-weight: 600;
         font-size: 50px;
     }
 
@@ -199,6 +240,26 @@ main {
         font-size: 25px;
     }
     
+    .about-main-content {
+        height: fit-content;
+        display: grid;
+    }
+
+    .about-content-container h3 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+
+    .about-picture-container{
+        width: 100%;
+        height: auto;
+    }
+    
+    .about-picture-container img {
+        width: 100%;
+        height:auto;
+    }
 
  
 
