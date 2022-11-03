@@ -244,6 +244,11 @@ main {
     height: auto;
 }
 
+.percentage0 label,
+.percentage1 label {
+    font-weight: 600;
+}
+
 .progress-bar {
     background-color: #775C51;
 }
@@ -364,10 +369,6 @@ main {
     }
 
     /* About */
-    .about {
-        padding: 2% 2% 2% 2%;
-    }
-
     .about-details-container h1 {
         font-weight: 600;
         font-size: 50px;
