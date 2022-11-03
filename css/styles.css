@@ -498,6 +498,8 @@ main {
         width: fit-content;
         height: auto;
         margin-bottom: 10%;
+        display: grid;
+        align-content: center;
     }
     
     .about-picture-container img {
@@ -516,7 +518,7 @@ main {
     .skills{
         padding: 2% 4% 2% 4%;
     }
-    
+
     .skills-main-content-container {
         display: grid;
     }
