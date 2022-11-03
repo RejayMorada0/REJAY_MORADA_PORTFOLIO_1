@@ -480,6 +480,10 @@ main {
     margin-bottom: 5%;
 }
 
+.content-center p {
+    font-weight: 100;
+}
+
 #content-center {
     display: grid;
     align-content: center;
