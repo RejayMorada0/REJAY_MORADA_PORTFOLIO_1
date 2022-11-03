@@ -400,6 +400,9 @@ main {
     font-weight: 600;
 }
 
+#title-bold p{
+    font-weight: 100;
+}
 
 
 /* Projects */
@@ -613,6 +616,7 @@ main {
         display: grid;
     }
     
+    
     .percentage0,
     .percentage1 {
         width: 100%;
@@ -623,10 +627,15 @@ main {
     .resume{
         padding: 10% 4% 10% 4%;
     }
+
+    .resume-details-container h1 {
+        margin-bottom: 10%;
+    }
     
     #d-grid {
         width: 100%;
         display: grid;
+        margin-bottom: 5%;
     }
 
 
