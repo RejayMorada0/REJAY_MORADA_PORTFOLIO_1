@@ -270,6 +270,10 @@ main {
     margin-bottom: 3%;
 }
 
+.about-content-container label {
+    font-weight: 100;
+}
+
 .about-picture-container{
     display: grid;
     justify-content: center;
@@ -528,6 +532,7 @@ main {
     .about-details-container h3 {
         font-size: 25px;
     }
+
     
     .about-main-content {
         width: 100%;
