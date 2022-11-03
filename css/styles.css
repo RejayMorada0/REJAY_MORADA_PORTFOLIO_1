@@ -462,11 +462,36 @@ main {
     column-gap: 5%;
 }
 
+.container {
+    width: 50%;
+    border: solid 1px red;
+}
+
+.content-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
 #content-center {
     display: grid;
     align-content: center;
     justify-content: center;
     text-align: center;
+}
+
+form {
+    width: 50%;
+}
+
+.btn {
+    background-color: #775C51;
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: #9b7c71;
 }
 
 
