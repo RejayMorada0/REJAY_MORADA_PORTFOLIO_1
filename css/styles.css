@@ -379,6 +379,7 @@ main {
     }
     
     .about-main-content {
+        width: 100%;
         height: fit-content;
         display: grid;
     }
@@ -388,9 +389,8 @@ main {
         font-size: 25px;
     }
 
-
     .about-picture-container{
-        width: 100%;
+        width: fit-content;
         height: auto;
         margin-bottom: 10%;
     }
