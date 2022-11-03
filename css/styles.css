@@ -155,7 +155,6 @@ main {
     height: fit-content;
     width: 100%;
     margin-bottom: 4%;
-    border: solid 1px red;
 }
 
 .about-content-container h3 {
@@ -170,7 +169,6 @@ main {
     align-content: center;
     width: 100%;
     height: 35vh;
-    border: solid 1px red;
 }
 
 .about-picture-container img {
@@ -179,8 +177,78 @@ main {
 }
 
 
+/* About Details */
+.box{
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    margin-top: 5%;
+}
 
-/* Query if the screen is minimize */
+.firstbox {
+    width: 100%;
+    display: grid;
+}
+
+.secondbox {
+    width: 100%;
+    display: grid;
+}
+
+.firstdetail,
+.seconddetail,
+.thirddetail,
+.fourthdetail {
+    display: flex;
+    width:100%;
+}
+
+.box i {
+    color: #775C51;
+    font-size: 20px;
+}
+
+.col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Query if the screen is tablet */
+
+@media only screen and (max-width: 1500px) {
+    .about-main-content {
+        height: fit-content;
+        display: grid;
+    }
+    
+    .about-content-container h3 {
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 0%;
+    }
+
+    .about-picture-container{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    
+    .about-picture-container img {
+        width: 100%;
+        height:auto;
+    }
+
+    /* About Details */
+    .box{
+        width: 100%;
+        display: grid;
+        column-gap: 0px;
+    }
+
+}
+
+/* Query if the screen is phone */
 
 @media only screen and (max-width: 1000px) {
     #rejaynav {
@@ -254,11 +322,19 @@ main {
     .about-picture-container{
         width: 100%;
         height: auto;
+        margin-bottom: 10%;
     }
     
     .about-picture-container img {
         width: 100%;
         height:auto;
+    }
+
+    /* About Details */
+    .box{
+        width: 100%;
+        display: grid;
+        column-gap: 0px;
     }
 
  
