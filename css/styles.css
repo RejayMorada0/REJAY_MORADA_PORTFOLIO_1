@@ -396,6 +396,9 @@ main {
     display: flex;
 }
 
+#title-bold {
+    font-weight: 600;
+}
 
 
 
