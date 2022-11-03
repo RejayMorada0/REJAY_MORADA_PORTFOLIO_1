@@ -386,9 +386,17 @@ main {
     width: 100%;
     display: flex;
     column-gap: 5%;
-    height: 10vh;
-    border: solid 1px blue;
 }
+
+.resume-table {
+    width: 100%;
+}
+
+#d-grid {
+    display: flex;
+}
+
+
 
 
 /* Projects */
@@ -483,6 +491,8 @@ main {
         width: 100%;
         height: auto;
     }
+
+    
 
 }
 
@@ -608,6 +618,14 @@ main {
     /* Resume */
     .resume{
         padding: 10% 4% 10% 4%;
+    }
+    
+    #d-grid {
+        width: 100%;
+        display: grid;
+    }
+    #d-full {
+        width: 100%;
     }
  
 
