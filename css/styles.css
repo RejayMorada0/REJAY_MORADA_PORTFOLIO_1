@@ -157,14 +157,6 @@ main {
     background-repeat: no-repeat;
 }
 
-.project,
-.contact {
-    height: 50vh;
-    border: solid 1px red;
-    margin-bottom: 5%;
-}
-
-
 /* Home */
 
 .home{
@@ -407,6 +399,19 @@ main {
     padding-bottom: 5%;
 }
 
+.project-details-container {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.project-details-container h1{
+    text-align: start;
+    color:#775C51;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
 
 
 
@@ -419,6 +424,20 @@ main {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+.contact-details-container {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.contact-details-container h1{
+    text-align: start;
+    color:#775C51;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
 
 
 
