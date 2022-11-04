@@ -447,7 +447,7 @@ main {
 }
 
 #gap {
-    padding-bottom: 5%;
+    margin-bottom: 5%;
     row-gap: 2%;
     column-gap: 2%;
 }
@@ -745,9 +745,13 @@ form {
     }
 
     #gap {
-        padding-bottom: 5%;
+        margin-bottom: 5%;
         row-gap: 3%;
         column-gap: 3%;
+    }
+
+    #test {
+        margin-top: 5%
     }
     
 
