@@ -415,6 +415,7 @@ main {
     background-color: white;
     padding-top: 5%;
     padding-bottom: 5%;
+    height: fit-content;
 }
 
 .project-details-container {
