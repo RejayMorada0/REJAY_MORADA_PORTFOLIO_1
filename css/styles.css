@@ -445,8 +445,8 @@ main {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-    row-gap: 3%;
-    column-gap: 3%;
+    row-gap: 2%;
+    column-gap: 2%;
 }
 
 
