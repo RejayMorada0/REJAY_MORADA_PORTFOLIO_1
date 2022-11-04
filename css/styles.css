@@ -444,6 +444,7 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    row-gap: 5%;
 }
 
 
@@ -737,7 +738,7 @@ form {
         justify-content: center;
         align-content: center;
         margin-bottom: 5%;
-    
+        row-gap: 5%;
     }
     
 
