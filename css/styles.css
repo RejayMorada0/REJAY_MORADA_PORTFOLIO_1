@@ -421,6 +421,7 @@ main {
 .project-details-container {
     display: grid;
     justify-content: flex-start;
+    padding-bottom: 10%;
 }
 
 .project-details-container h1{
