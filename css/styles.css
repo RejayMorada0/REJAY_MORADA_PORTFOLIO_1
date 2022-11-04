@@ -735,6 +735,7 @@ form {
     #center {
         display: grid;
         justify-content: center;
+        align-content: center;
         margin-bottom: 5%;
     
     }
