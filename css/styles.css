@@ -444,6 +444,9 @@ main {
 #center {
     display: flex;
     justify-content: center;
+}
+
+#gap {
     padding-bottom: 5%;
     row-gap: 2%;
     column-gap: 2%;
@@ -739,6 +742,9 @@ form {
         display: grid;
         justify-content: center;
         align-content: center;
+    }
+
+    #gap {
         padding-bottom: 5%;
         row-gap: 3%;
         column-gap: 3%;
