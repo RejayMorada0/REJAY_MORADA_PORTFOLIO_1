@@ -440,6 +440,12 @@ main {
     border-radius: 5px;
 }
 
+#center {
+    display: flex;
+    justify-content: center;
+
+}
+
 
 
 
@@ -725,6 +731,14 @@ form {
         margin-bottom: 10%;
         margin-top: 10%;
     }
+
+    #center {
+        display: grid;
+        justify-content: grid;
+        margin-bottom: 5%;
+    
+    }
+    
 
 }
 
