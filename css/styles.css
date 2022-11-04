@@ -734,7 +734,7 @@ form {
 
     #center {
         display: grid;
-        justify-content: grid;
+        justify-content: center;
         margin-bottom: 5%;
     
     }
