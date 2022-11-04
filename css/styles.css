@@ -435,7 +435,6 @@ main {
     width: 100%;
     height: 20vh;
     display: flex;
-    border: solid 1px #775C51;
     border-radius: 5px;
 }
 
