@@ -421,7 +421,7 @@ main {
 .project-details-container {
     display: grid;
     justify-content: flex-start;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .project-details-container h1{
@@ -444,7 +444,7 @@ main {
 #center {
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
     row-gap: 5%;
     column-gap: 5%;
 }
@@ -739,7 +739,7 @@ form {
         display: grid;
         justify-content: center;
         align-content: center;
-        margin-bottom: 5%;
+        padding-bottom: 5%;
         row-gap: 5%;
         column-gap: 5%;
     }
