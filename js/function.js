@@ -45,14 +45,24 @@ $(document).ready(function() {
 });
 
 
-function sendEmail() {
+const form = document.querySelector('.contact_form')
+
+function sendMsg(e) {
+    e.preventDefault();
+
+    const email = document.querySelector('.contact_form'),
+        subject = document.querySelector('.contact_form'),
+        message = document.querySelector('.contact_form')
+
     Email.send({
-        SecureToken: "0ecaf7db-2f81-439d-b902-47a0f2f78694",
+        SecureToken: "99ae49b0-7060-41ce-a8d8-c5d474204742",
         To: "rejaymorada0@gmail.com",
-        From: document.getElementById('email').value,
-        Subject: document.getElementById('subject').value,
-        Body: document.getElementById('validationTextarea').value
+        From: email.value,
+        Subject: subject.value,
+        Body: message.value
     }).then(
         message => alert("mail sent successfully")
     );
 }
+
+form.addEventListener('submit', sendMsg);
