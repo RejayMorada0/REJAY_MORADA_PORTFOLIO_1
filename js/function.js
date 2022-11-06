@@ -1,5 +1,5 @@
 // Reference: https://alvarotrigo.com/blog/css-text-animations/
-var words = ['Freelancer.', 'Developer.','Designer.', 'Vexel and Graphic Artist.'],
+var words = ['Freelancer.', 'Developer.', 'Designer.', 'Vexel and Graphic Artist.'],
     part,
     i = 0,
     offset = 0,
@@ -8,45 +8,51 @@ var words = ['Freelancer.', 'Developer.','Designer.', 'Vexel and Graphic Artist.
     skip_count = 0,
     skip_delay = 15,
     speed = 70;
-var wordflick = function () {
-  setInterval(function () {
-    if (forwards) {
-      if (offset >= words[i].length) {
-        ++skip_count;
-        if (skip_count == skip_delay) {
-          forwards = false;
-          skip_count = 0;
+var wordflick = function() {
+    setInterval(function() {
+        if (forwards) {
+            if (offset >= words[i].length) {
+                ++skip_count;
+                if (skip_count == skip_delay) {
+                    forwards = false;
+                    skip_count = 0;
+                }
+            }
+        } else {
+            if (offset == 0) {
+                forwards = true;
+                i++;
+                offset = 0;
+                if (i >= len) {
+                    i = 0;
+                }
+            }
         }
-      }
-    }
-    else {
-      if (offset == 0) {
-        forwards = true;
-        i++;
-        offset = 0;
-        if (i >= len) {
-          i = 0;
+        part = words[i].substr(0, offset);
+        if (skip_count == 0) {
+            if (forwards) {
+                offset++;
+            } else {
+                offset--;
+            }
         }
-      }
-    }
-    part = words[i].substr(0, offset);
-    if (skip_count == 0) {
-      if (forwards) {
-        offset++;
-      }
-      else {
-        offset--;
-      }
-    }
-    $('.word').text(part);
-  },speed);
+        $('.word').text(part);
+    }, speed);
 };
 
-$(document).ready(function () {
-  wordflick();
+$(document).ready(function() {
+    wordflick();
 });
 
 
-
-
-
+function sendEmail() {
+    Email.send({
+        SecureToken: "0ecaf7db-2f81-439d-b902-47a0f2f78694",
+        To: "rejaymorada0@gmail.com",
+        From: document.getElementById('email').value,
+        Subject: document.getElementById('subject').value,
+        Body: document.getElementById('validationTextarea').value
+    }).then(
+        message => alert("mail sent successfully")
+    );
+}
