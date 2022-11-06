@@ -43,26 +43,3 @@ var wordflick = function() {
 $(document).ready(function() {
     wordflick();
 });
-
-
-const form = document.querySelector('.contact_form')
-
-function sendMsg(e) {
-    e.preventDefault();
-
-    const email = document.querySelector('.contact_form'),
-        subject = document.querySelector('.contact_form'),
-        message = document.querySelector('.contact_form')
-
-    Email.send({
-        SecureToken: "99ae49b0-7060-41ce-a8d8-c5d474204742",
-        To: "rejaymorada0@gmail.com",
-        From: email.value,
-        Subject: subject.value,
-        Body: message.value
-    }).then(
-        message => alert("mail sent successfully")
-    );
-}
-
-form.addEventListener('submit', sendMsg);
